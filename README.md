@@ -9,5 +9,5 @@
 
 ## DISCLAIMER
 - This extension is for ***research & educational*** purposes only. **DO NOT** use it to cheat on your courses.
-- **DO NOT RUN THIS EXTENSION UNLESS YOU HAVE RESEARCHED INTO THE LOGIC OF THE COURSE WEBSITE AND THE EXTENSION ITSELF AND KNOW EXACTLY WHAT THIS EXTENSION DOES.**  I am not responsible for any misuse of this extension, nor any potential harm that may arise from using it.
+- **DO NOT RUN THIS EXTENSION UNLESS YOU HAVE RESEARCHED INTO THE LOGIC OF THE COURSE WEBSITE AND THE EXTENSION ITSELF AND KNOW EXACTLY WHAT THIS EXTENSION DOES.**  I am not responsible for any misuse of this extension, nor any potential harm that may arise from using it (***e.g. your IP may be marked as suspicious and get banned from the website***).
 - Enhancements & PRs are welcome. Do not redistribute.
