@@ -3,7 +3,7 @@
 
 ## How to use
 - Install & Enable the extension
-- Use other extensions to intercept the webpage's request for videojs-ext.min.js?v=2025-0212-2100 and redirect it to the content as shown in the file in this repo with the identical name
+- Use other extensions to intercept the webpage's request for `videojs-ext.min.js?v=2025-0212-2100` and redirect it to the content as shown in the file in this repo with the identical name
 - Play the video on the course page, **don't move the mouse**, sit back and relax, and wait for the magic to happen
 - If the course is still not marked as completed 30 seconds after the video starts, consider refreshing the page
 
