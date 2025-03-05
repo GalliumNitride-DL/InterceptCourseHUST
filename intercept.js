@@ -19,9 +19,9 @@ chrome.webRequest.onBeforeRequest.addListener(
     async function (details) {
         if (details.url.includes(matchURL)) {
             requestProcessed++;
-            if (requestProcessed >= 30) {
-                 return;
-            }
+            // if (requestProcessed >= 2) {
+            //      return;
+            // }
             originalPayload = details.url;
             loadPayload(originalPayload);
 
@@ -58,10 +58,14 @@ chrome.webRequest.onBeforeRequest.addListener(
 
                         console.log("New Payload: " + newPayload);
 
+                        navigator.clipboard.writeText(newPayload);
+
+                        console.log("Payload copied to clipboard");
+
                         //fetch the new link
-                        fetch(newPayload).then(response => response.text()).then(data => {
-                            console.log("Response: " + data);
-                        });
+                        //fetch(newPayload).then(response => response.text()).then(data => {
+                        //    console.log("Response: " + data);
+                        //});
                     });
                 `
             });
